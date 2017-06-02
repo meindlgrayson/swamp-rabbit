@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: local('Oleo Script'), url('http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2') format('woff2');
+  font-family: 'Oleo Script';
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  src: local('Poiret One'), url('http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+  font-family: 'Poiret One';
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  text-align: center;
+  font-family: 'Poiret One';
+  margin: 0;
+}
+
+.subheader-msg {
+  font-family: 'Oleo Script';
+}
+
+.image-cards li {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 30px 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.single-img-card {
+  width: 175px;
+  height: auto;
+  box-shadow: 1px 1px 20px black;
+}
+
+.site-header {
+  height: 520px;
+  background-image: url('../img/header-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+  margin: 0;
+  overflow: hidden;
+}
+
+.main-heading {
+  padding-top: 115px;
+  font-size: 72px;
+}
+
+.divider {
+  width: 634px;
+  height: 3px;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.callout-wrapper {
+  background-color: #43996a;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  height: 200px;
+  font-size: 32px;
+  padding-top: auto;
+  padding-bottom: auto;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.callout-msg {
+  width: 100%;
+  margin: auto 0;
+  padding-top: 5px;
+}
+
+.contact-msg, .contact-phone {
+  font-size: 28px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.contact-email {
+  font-size: 32px;
+  padding: 20px;
+}
+
+.logo {
+  height: 250px;
+  width: 210px;
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: invert(100%);
+  position: absolute;
+  top: 110px;
+  right: 220px;
+  z-index: 1;
+}
+
+footer {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  height: 80px;
+  padding: 30px;
+}
+
+#left-img {
+  background-image: url('../img/left-img.jpg');
+}
+
+#middle-img {
+  background-image: url('../img/middle-img.jpg');
+}
+
+#right-img {
+  background-image: url('../img/right-img.jpg');
+}
+
+.header-wrapper {
+  position: relative;
+}
